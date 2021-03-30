@@ -1,0 +1,18 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" style="-fx-background-color: white">
+
+    <Label text="Image processing application" style="-fx-font-family: 'Fira Code'; -fx-font-size: 18" textFill="darkgreen" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+
+
+    <TextField style="-fx-background-color: yellow" GridPane.columnIndex="0"  GridPane.rowIndex="1" />
+
+    <Button textFill="aliceblue" style=" -fx-background-color: black" text="Upload"  GridPane.columnIndex="0" GridPane.rowIndex="2" fx:id="#UploadButtonClicked"/>
+
+
+</GridPane>
